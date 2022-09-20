@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background-color: #0eb37305;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    
+}
+.hor {
+    margin-top: 0;
+    background-color: #0cd14d;
+    margin-bottom: 0;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    text-align:right;
+}
+
+.hor li {
+    list-style-type: none;
+    display: inline;
+
+}
+
+.hor a {
+    padding: 30px;
+    text-decoration: none;
+    color: rgb(151, 19, 19);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.hor a:hover {
+    color: rgb(10, 187, 49);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer{
+    background-color: green;
+    text-align: center;
+}
+#home{
+    background-color: #6205ee;
+}
+#about{
+    background-color: aqua;
+}
+#services{
+    background-color: crimson;
+}
+#contact{
+    background-color: #068d06;
+    margin-left: 20px auto;
+}
+#footer{
+    text-align: center;
+}
+
+.vert {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    background-color: #068d06;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    margin-left: 85%;
+    margin-top: 0;
+}
+
+
+.vert li a {
+    display: block;
+    color: #000;
+    padding: 25px;
+    text-decoration: none;
+    border-bottom: 5px solid #CCAAFF;
+}
+
+.vert li a:hover {
+    background-color: red;
+}
+
+div {
+    margin-right: 15%;
+    padding: 10px;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(217, 220, 214);
+    margin-top: 0;
+    width: 85%;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+
+}
